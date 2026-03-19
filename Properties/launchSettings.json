@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "PieceUsur": {
+      "commandName": "Project",
+      "commandLineArgs": "\"41442888\"\r\n\"1020\"\r\n\"A59\"\r\n\"131E4439P005M\"\r\n\"null\"\r\n\"Nada\"\r\n\"04\"\r\n\"L1AA019178\"\r\n\"A59.1\"\r\n"
+    },
+    "Profil 1": {
+      "commandName": "Project",
+      "commandLineArgs": "topic=test_usur&env=stg&extAppId=139383&sso=504022342&USER=Nada&OF=124148&OP=020011&CDC=A4E&ARTICLE=105T4989P0015M&LIGNE=AILETTES&Partrev=B&sn=4551-55$545-69&Machine=A59.5\r\n"
+    }
+  }
+}
