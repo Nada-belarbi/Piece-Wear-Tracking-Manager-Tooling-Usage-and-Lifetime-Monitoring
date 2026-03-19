@@ -30,7 +30,6 @@ The application is designed for real shop-floor constraints, with a simple UI an
 - Oracle Database
 - Oracle Managed Data Access
 - Custom logging system
-- Industrial MES-style input integration
 
 ---
 
@@ -86,7 +85,6 @@ Typical entities used by the project:
 
 - history / audit records
 
-For public sharing, schema names, credentials, and internal table details should be sanitized.
 
 ## Configuration
 
@@ -101,22 +99,7 @@ Typical configuration includes:
 - machine / environment information
 
 - production context passed from another system
-
-Sensitive values should not be committed to GitHub.
-A sanitized App.config.example file is recommended.
-
-## Key Technical Points
-
-- Separation between UI logic and business logic
-
-- Dedicated database access class
-
-- Oracle parameter support
-
-- Counter management and business-rule validation
-
-- History traceability for industrial auditing
-
+  
 ## Industrial Use Case
 
 This application was built in an industrial environment where tooling lifetime must be controlled to:
@@ -128,13 +111,3 @@ This application was built in an industrial environment where tooling lifetime m
 - standardize tooling selection
 
 - ensure production consistency
-
-## Limitations
-
-- Requires Oracle database access
-
-- Depends on external production context
-
-- Includes business rules specific to the original industrial environment
-
-- Some configuration and schema elements must be adapted before reuse
